@@ -7,9 +7,9 @@ This repository contains practice projects from the MSU CS1 Course. All projects
 
 Projects include:
 
-Cypher: Create a rotation cypher that takes in a plain-text string and translates it into a new string based on a rotation of the alphabet being used. 
+<a href="cypher_project04.pdf">Cypher</a>: Create a rotation cypher that takes in a plain-text string and translates it into a new string based on a rotation of the alphabet being used. 
 
-Mastermind: Play the classic game Mastermind using numbers instead of colors. 
+<a href="mastermind_project04.pdf">Mastermind</a>: Play the classic game Mastermind using numbers instead of colors. 
 
 Scramble: Scramble a paragraph keeping the punctuation, first letter, and last letter of each word the same.
 
