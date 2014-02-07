@@ -11,6 +11,6 @@ Projects include:
 
 <a href="mastermind_project04.pdf">Mastermind</a>: Play the classic game Mastermind using numbers instead of colors. 
 
-Scramble: Scramble a paragraph keeping the punctuation, first letter, and last letter of each word the same.
+<a href="latin_proj05.pdf">Latin Words</a>: Write a program that reads from a a file of words and counts how often a handful of common Latin roots, prefixes and suffixes show up in those words.
 
-Latin Words: Write a program that reads from a a file of words and counts how often a handful of common Latin roots, prefixes and suffixes show up in those words.
+<a href="scramble_project06.pdf">Scramble</a>: Scramble a paragraph keeping the punctuation, first letter, and last letter of each word the same.
