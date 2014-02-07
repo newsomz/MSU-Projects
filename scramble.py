@@ -82,14 +82,29 @@ def scramble_word(word):
     else:
         return word
 
-
-#Open a file for reading. Prompt user for the file name
-input_filename = input("Please enter the file name of the file you would like to scramble: ")
-input_file = open(input_filename, 'r')
-
-output_filename = input("Please enter the file name where you will save your scrambled file: ")
-output_file = open(output_filename, 'w')
-
-scramble_text()
-
 #Prompt the user for a new file name
+
+scramble = ' '
+
+while scramble != '':
+    scramble = input('Do you want to scramble a file? Y or N: ').lower()
+    print(scramble)
+    
+    if scramble == 'y' or scramble == 'yes':
+    #Open a file for reading. Prompt user for the file name
+        input_filename = input("Please enter the file name of the file you would like to scramble: ")
+        input_file = open(input_filename, 'r')
+
+        output_filename = input("Please enter the file name where you will save your scrambled file: ")
+        output_file = open(output_filename, 'w')
+
+        scramble_text()
+        input_file.close()
+        output_file.close()
+
+    elif scramble == 'n' or scramble == 'no':
+        print('Thank you for using scramble.')
+        scramble = ''
+
+    else:
+        print('Sorry, you must enter Y or N.')
